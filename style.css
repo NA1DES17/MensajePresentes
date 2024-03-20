@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+  }
+  form {
+    width: 95%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+  }
+  .alumno {
+    margin: 5px;
+  }
+  #isabella,
+  #nahuel,
+  #guada,
+  #benjaC,
+  #tomi2,
+  #thiago {
+    transform: scale(1.5);
+    margin-left: 15px;
+  }
+}
