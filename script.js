@@ -29,14 +29,14 @@ enviar.addEventListener("click", () => {
   if (asistentes.length === 1) {
     console.log(`Hola Mabe, hoy solo vino${asistentes}`);
     let mensaje = `Hola Mabe, hoy solo vino${asistentes}`;
-    // window.open(
-    //   `https://api.whatsapp.com/send?phone=5491165277188text=${mensaje}`
-    // );
+    window.open(
+      `https://api.whatsapp.com/send?phone=5491165277188text=${mensaje}`
+    );
   } else {
     console.log(`Hola Mabe, hoy vinieron ${asistentes.length}.${asistentes}`);
   }
   let mensaje = `Hola Mabe, hoy vinieron ${asistentes.length}.${asistentes}`;
-  // window.open(
-  //   `https://api.whatsapp.com/send?phone=5491165277188text=${mensaje}`
-  // );
+  window.open(
+    `https://api.whatsapp.com/send?phone=5491165277188text=${mensaje}`
+  );
 });
