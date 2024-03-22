@@ -34,9 +34,9 @@ enviar.addEventListener("click", () => {
     );
   } else {
     console.log(`Hola Mabe, hoy vinieron ${asistentes.length}.${asistentes}`);
+    let mensaje = `Hola Mabe, hoy vinieron ${asistentes.length}.${asistentes}`;
+    window.open(
+      `https://api.whatsapp.com/send?phone=5491165277188&text=${mensaje}`
+    );
   }
-  let mensaje = `Hola Mabe, hoy vinieron ${asistentes.length}.${asistentes}`;
-  window.open(
-    `https://api.whatsapp.com/send?phone=5491165277188&text=${mensaje}`
-  );
 });
